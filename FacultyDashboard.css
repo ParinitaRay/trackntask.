@@ -1,0 +1,83 @@
+/* FacultyDashboard.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9ecd3;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 300px; /* Increased space between profile and action buttons */
+  padding: 50px;
+}
+
+.profile-card {
+  background-color: #9cb6e0;
+  border-radius: 20px;
+  width: 350px;
+  height: 700px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  background-color: #1e1f2c;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-box {
+  background-color: #b3cff4;
+  padding: 30px; /* Increased padding */
+  border-radius: 16px;
+  width: 80%;
+  height: 500px; /* Increased height */
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-box p {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.action-button {
+  background-color: #b3cff4;
+  border: none;
+  border-radius: 20px;
+  padding: 50px 100px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.action-button:hover {
+  background-color: #a2c1e9;
+}
