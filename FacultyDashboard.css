@@ -1,8 +1,7 @@
-/* FacultyDashboard.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f9ecd3;
+  background-color: #F9ecd3;
 }
 
 .dashboard-container {
@@ -17,7 +16,7 @@ body {
 .profile-card {
   background-color: #9cb6e0;
   border-radius: 20px;
-  width: 350px;
+  width: 450px;
   height: 700px;
   padding: 30px 25px;
   display: flex;
@@ -68,7 +67,7 @@ body {
 }
 
 .action-button {
-  background-color: #b3cff4;
+  background-color: #9EC6F3;
   border: none;
   border-radius: 20px;
   padding: 50px 100px;
@@ -81,3 +80,19 @@ body {
 .action-button:hover {
   background-color: #a2c1e9;
 }
+
+.action-button {
+  background-color: #b3cff4;
+  border: none;
+  border-radius: 20px;
+  padding: 70px 120px;
+  font-size: 30px;
+  color: black; /* 👈 add this */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
