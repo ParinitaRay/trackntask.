@@ -15,7 +15,7 @@ const FacultyDashboard = () => {
       </div>
       <div className="actions">
         <button className="action-button">Create class</button>
-        <button className="action-button">add works</button>
+        <button className="action-button">Add works</button>
       </div>
     </div>
   );
